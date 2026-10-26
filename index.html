@@ -28,6 +28,35 @@
         a:hover {
             color: #ffffff;
         }
+        .characters-block {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            margin-top: 20px;
+        }
+        .turtles-img {
+            max-width: 400px;
+            height: auto;
+        }
+        .character-list h2 {
+            margin-top: 0;
+            color: #ffdd00;
+        }
+        .character-list ul {
+            list-style-type: none;
+            padding: 0;
+            font-size: 22px;
+            line-height: 2;
+        }
+        .character-list a {
+            color: #ffffff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .character-list a:hover {
+            color: #ffdd00;
+            text-decoration: underline;
+        }
     </style>
         <title>Черепашки-ниндзя</title>
     </head>
@@ -35,6 +64,19 @@
         <h1 class="gradient-text">ЧЕРЕПАШКИ-НИНДЗЯ (2012)</h1>
         <p>Черепашки-ниндзя (2012) - это анимационный мультсериал, выпущенный для телеканала <a href=https://ru.wikipedia.org/wiki/Nickelodeon>Niсkelodeon</a>, который рассказывает о приключениях подростков-черепах и судьбе Нью-Йорка, где среди простых людей прячутся ниндзя, мутанты и даже пришельцы, нарушающие общественный порядок.</p>
         <p>У каждого шоу о черепашках есть своя особенность - это разные вселенные, где черепахи стали мутантами по разным причинам и встретили своих друзей в разные моменты своей жизни. Так, например, в сериале Черепашки-Ниндзя 2007 года четыре брата столкнулись с Эйприл, когда та убегала от роботов, созданных злым учёным Бакстером Стокманом, в то время как в сериале 2012 года черепахи впервые видят Эйприл, когда похищают её отца. В пример также можно привести фильмы Черепашки-ниндзя 2014/2016 года режиссёра Майкла Бэя (под его издательством выходила популярная линейка фильмов о Трансформерах): всё те же черепахи и их отец крыса, которые мутировали под действием мутагена, однако в канализации они оказались, когда Эйприл, будучи ребенком, спасла их от пожара (в рамках сюжета фильма она считается не подругой, а старшей сестрой черепашек-ниндзя).</p>
-        <img src="https://pngimg.com/uploads/ninja_turtles/ninja_turtles_PNG82.png" alt="Черепашки-ниндзя">
+        <div class="characters-block">
+            <img src="https://pngimg.com/uploads/ninja_turtles/ninja_turtles_PNG82.png" alt="Черепашки-ниндзя" class="turtles-img">
+            <div class="character-list">
+                <h2>Персонажи:</h2>
+                <ul>
+                    <li><a href="#">Леонардо</a></li>
+                    <li><a href="#">Рафаэль</a></li>
+                    <li><a href="#">Микеланджело</a></li>
+                    <li><a href="#">Донателло</a></li>
+                    <li><a href="#">Сплинтер</a></li>
+                    <li><a href="#">Эйприл</a></li>
+                </ul>
+            </div>
+        </div>
     </body>
 </html>
